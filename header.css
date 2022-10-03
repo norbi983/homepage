@@ -1,0 +1,37 @@
+.header__Item {
+    color: rgb(119, 35, 35);
+    font-family: "Lato", sans-serif;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.subheader {
+    background-color: rgb(204, 204, 197);
+    font-family: "Lato", sans-serif;
+    max-width: 500px;
+    border-width: 10px 0px;
+    border-style: ridge;
+    border-color: rgba(67, 77, 68, 0.397);
+    border-radius: 20%;
+    padding: 30px;
+    padding-left: 30px;
+    margin: auto;
+
+}
+
+.header__image {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 40px;
+
+}
+
+.table__Header {
+    background-color: rgb(42, 151, 165);
+    color: rgb(107, 32, 32);
+    font-weight: bold;
+}
+
