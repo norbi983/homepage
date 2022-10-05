@@ -70,18 +70,6 @@ html {
 }
 
 
-.table__row:nth-child(even) {
-    background: #858080;
-}
-
-.table__row:hover {
-    background: #cccbcb;
-}
-
-.table__conteinor {
-    overflow-x: auto;
-}
-
 .conteinor {
     color: rgb(119, 35, 35);
     font-family: "Lato", sans-serif;
@@ -90,6 +78,7 @@ html {
     padding: 20px;
     font-size: 25px;
 }
+
 
 .table {
     margin: auto;
@@ -103,6 +92,18 @@ html {
     padding: 10px;
     text-align: center;
     vertical-align: middle;
+}
+
+.table__row:nth-child(even) {
+    background: #b48a8a;
+}
+
+.table__row:hover {
+    background: #cccbcb;
+}
+
+.table__conteinor {
+    overflow-x: auto;
 }
 
 .dark {
