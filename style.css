@@ -52,6 +52,7 @@ html {
     padding: 30px;
     padding-left: 30px;
     margin: auto;
+    box-shadow: 4px 4px 10px;
 
 }
 
@@ -66,6 +67,7 @@ html {
     padding: 30px;
     padding-left: 30px;
     margin: auto;
+    box-shadow: 4px 4px 10px;
 
 }
 
@@ -95,11 +97,11 @@ html {
 }
 
 .table__row:nth-child(even) {
-    background: #b48a8a;
+    background: #f1eded;
 }
 
 .table__row:hover {
-    background: #cccbcb;
+    background: #b3afaf;
 }
 
 .table__conteinor {
@@ -113,11 +115,12 @@ html {
 
 
 .button__theme {
-    background-color: rgb(224, 208, 208);
+    background-color: rgb(240, 229, 229);
     margin: 20px auto;
     border-radius: 20px;
     padding: 2px;
     transition: 0.3s;
+    box-shadow: 4px 4px 10px;
 }
 
 .footer {
