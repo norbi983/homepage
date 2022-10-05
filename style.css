@@ -116,6 +116,7 @@ html {
 
 
 .button__theme {
+    color: rgb(150, 63, 51);
     background-color: rgb(199, 204, 206);
     margin: 20px auto;
     border-radius: 20px;
