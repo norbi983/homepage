@@ -23,66 +23,7 @@ html {
     margin-bottom: 50px;
 }
 
-
-
-
-.button__Theme {
-    background-color: rgb(218, 210, 210);
-    margin: 20px auto;
-    border-radius: 20px;
-    padding: 2px;
-    border-radius: 20px;
-    transition: 0.3s;
-
-
-}
-
-
-
-.dark {
-    color: rgb(148, 62, 62);
-    background-color: rgb(2, 2, 2);
-}
-
-
-
-.table__Row:nth-child(even) {
-    background: #a5a5a5;
-}
-
-.table__Row:hover {
-    background: #e2dfdf;
-}
-
-.table__Conteinor {
-    overflow-x: auto;
-}
-
-.nav {
-    margin: auto;
-
-}
-
-.nav__list {
-    list-style: none;
-    padding: 20px;
-}
-
-
-
-.nav__link {
-    color: rgb(22, 21, 21);
-    background-color: rgb(199, 204, 209);
-    margin: auto;
-    font-family: "Lato", sans-serif;
-    font-weight: bold;
-    font-size: 23px;
-    text-decoration: dotted;
-    line-height: 2;
-    padding: 5px 10px;
-}
-
-.header__Item {
+.section__title {
     color: rgb(119, 35, 35);
     font-family: "Lato", sans-serif;
     max-width: 300px;
@@ -91,7 +32,16 @@ html {
     font-size: 25px;
 }
 
-.subheader {
+.article__title {
+    color: rgb(119, 35, 35);
+    font-family: "Lato", sans-serif;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.section__paragraph {
     background-color: rgb(204, 204, 197);
     font-family: "Lato", sans-serif;
     max-width: 500px;
@@ -105,37 +55,72 @@ html {
 
 }
 
-.header__image {
-    display: flex;
-    flex-direction: column;
+.article__paragraph {
+    background-color: rgb(204, 204, 197);
+    font-family: "Lato", sans-serif;
+    max-width: 500px;
+    border-width: 10px 0px;
+    border-style: ridge;
+    border-color: rgba(67, 77, 68, 0.397);
+    border-radius: 20%;
+    padding: 30px;
+    padding-left: 30px;
     margin: auto;
-    border-radius: 40px;
 
 }
 
-.table__Header {
-    background-color: rgb(42, 151, 165);
-    color: rgb(107, 32, 32);
-    font-weight: bold;
+
+.table__row:nth-child(even) {
+    background: #858080;
 }
 
-.main__Table {
+.table__row:hover {
+    background: #cccbcb;
+}
+
+.table__conteinor {
+    overflow-x: auto;
+}
+
+.conteinor {
+    color: rgb(119, 35, 35);
+    font-family: "Lato", sans-serif;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.table {
     margin: auto;
     font-family: "Lato", sans-serif;
     border-collapse: collapse;
     width: 50%;
 }
 
-.main__tableCell {
+.table__cell {
     border: 1px double rgb(133, 23, 23);
     padding: 10px;
     text-align: center;
     vertical-align: middle;
 }
 
-.main__footer {
+.dark {
+    color: rgb(148, 62, 62);
+    background-color: rgb(2, 2, 2);
+}
+
+
+.button__theme {
+    background-color: rgb(224, 208, 208);
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 2px;
+    transition: 0.3s;
+}
+
+.footer {
     font-size: 20px;
     text-align: center;
     padding: 20px;
-
 }

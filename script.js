@@ -1,10 +1,10 @@
 console.log("Cześć");
 
-let button__Theme = document.querySelector('.button__Theme');
+let button__theme = document.querySelector(".js-themeButton");
 let body = document.querySelector(".body");
 let themeName = document.querySelector(".themeName");
 
-button__Theme.addEventListener("click", () => {
+button__theme.addEventListener("click", () => {
     body.classList.toggle("dark");
     if(body.classList.contains("dark")) {
         themeName.innerText ="jasny"
