@@ -84,10 +84,10 @@ html {
 
 
 .table {
-    margin: auto;
+    margin:auto;
     font-family: "Lato", sans-serif;
     border-collapse: collapse;
-    width: 50%;
+    width: 70%;
 }
 
 .table__cell {
@@ -102,7 +102,7 @@ html {
 }
 
 .table__row:hover {
-    background: #b3afaf;
+    background: #ada9a9;
 }
 
 .table__conteinor {
