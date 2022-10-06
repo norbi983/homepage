@@ -1,11 +1,25 @@
-# Norbert Mszyca - moja strona
+# Norbert Mszyca - My Homepage
 
 ![Norbert](images/Norbert.jpg)
 
-## Demo
+# Demo
 
 https://norbi983.github.io/homepage/
 
-## Opis
+# Opis
 
-Pocaluj psa w dupe
+Hi, my name is **Norbert Mszyca**, and this is my first project as Frontend Junior Developer. This website is my presenteision.
+
+# Take a look at my website
+
+
+
+# Technogies
+
+- html
+- css
+- javaScript
+- Markdown
+- BEM
+
+
